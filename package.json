@@ -4,6 +4,8 @@
   "description": "Examine ESLint issues with the `prefer-object-spread` rule.",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node index.ts",
+    "lint:fix": "eslint --fix ./*.ts"
   },
   "repository": {
     "type": "git",
